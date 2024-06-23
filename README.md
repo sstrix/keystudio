@@ -14,7 +14,7 @@ test:   rele.py 1 on            turn on first relay (or specified relay number)
         rele.py 1 off           turn off first relay (...)
         rele.py 0 toggle        toggle status of all relays
 
-0 mean ALL four relays on the board, with numbers from 1 tu 4 can choose which relay drive
+0 mean ALL four relays on the board, with numbers from 1 to 4 can choose which relay drive
 
 status are:
 
