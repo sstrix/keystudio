@@ -8,6 +8,7 @@ https://www.amazon.it/dp/B072XGF4Z3
 
 ## Usage
 
+./python rele.py 0 test 
 
 ```
 use "python rele.py --help" for more information
