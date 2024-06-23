@@ -1,8 +1,10 @@
-#!/usr/bin/python# https://docs.python.org/3/library/argparse.html
+#!/usr/bin/python
 
-# https://machinelearningmastery.com/command-line-arguments-for-your-python-script/
-# https://docs.python.org/3/library/argparse.html
-# https://logicaprogrammabile.it/raspberry-pi-come-usare-linee-gpio/
+# used resources
+#   https://docs.python.org/3/library/argparse.html
+#   https://machinelearningmastery.com/command-line-arguments-for-your-python-script/
+#   https://docs.python.org/3/library/argparse.html
+#   https://logicaprogrammabile.it/raspberry-pi-come-usare-linee-gpio/
 
 import argparse
 import RPi.GPIO as GPIO
