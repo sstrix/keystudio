@@ -2,6 +2,9 @@
 
 Python script to drive the KEYESTUDIO 4 Channel DC 5V Modulo Relay Expansion Board Power Relay Board Module per Raspberry Pi 4 3 2 A+ B+ 2B 3B
 
+## board
+
+https://www.amazon.it/dp/B072XGF4Z3
 
 ## Usage
 
