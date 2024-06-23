@@ -99,6 +99,16 @@ def toggle(r):
         else:
                 off(r)
 
+def test(tm=.5):
+        toggle(1)
+        time.sleep(tm)
+        toggle(2)
+        time.sleep(tm)
+        toggle(3)
+        time.sleep(tm)
+        toggle(4)
+        time.sleep(tm)
+
 match status:
         case "off":
                 if (rele==0):
@@ -148,5 +158,23 @@ match status:
                         on(rele)
                         time.sleep(inchtime)
                         off(rele)
+        case "test":
+                allOff()
+                test(.1)
+                test(.1)
+                test(.2)
+                test(.2)
+                test(.3)
+                test(.3)
+                allOff()
+                time.sleep(.2)
+                allOn()
+                time.sleep(.2)
+                allOff()
+                time.sleep(.2)
+                allOn()
+                time.sleep(.2)
+                allOff()
+                  
 
 #print(rele,":",status))
